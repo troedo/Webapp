@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    color: #777;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+
+.nof a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+} ## ปรับสีรูปแบบปุ่
+
+.oop-nof {
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+} 
+
+.oop-nof li {
+    padding: 0 5%;
+} 
+
+
+
+.oop-hd {
+    background-color: rgba(0, 0, 0, .6);
+    background-color: pink;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}  ## แถบด้านบน
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+ 
+
+
+
+.oop {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+
+.oop-pr {
+    color: white;
+    background-color: pink;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.oop-pr:hover {
+    background-color: #FF9D00;
+}
+.oop-product {
+    margin: 30px;
+}
+
+.oop-product-tl {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.oop-product-image {
+    height: 300px;
+}
+
+
+
+.oop-product-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} ### จัดแถวสินค้า
+ 
+
